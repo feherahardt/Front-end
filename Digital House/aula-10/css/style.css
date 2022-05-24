@@ -2,15 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Roboto;
 }
 
 body{
     background-color: #E5E5E5;
+    font-family: Roboto;
 }
 
 .desconto{
-    width: 1024px;
+    width: 100%;
     height: 38px;
     left: 0px;
     top: 0px;
@@ -24,7 +24,7 @@ body{
 }
 
 .titulo{
-    width: 1024px;
+    width: 100%;
     height: 101px;
     left: 0px;
     top: 38px;
@@ -37,8 +37,7 @@ body{
 }
 
 .footer{
-    position: absolute;
-    width: 1024px;
+    width: 100%;
     height: 51px;
     left: 0px;
     top: 972px;
@@ -56,3 +55,51 @@ div{
     top: 223.99px;
 }
 
+.card-pai{
+    position: relative;
+    display: flex;
+    z-index: -1;
+    flex-direction: row;
+    width: 374px;
+    height: 597.01px;
+
+}
+
+.card-imagem{
+    width:374px ;
+    height:218.94px;
+
+}
+
+.card-conteudo{
+    width: 374px;
+    height: 379.2px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.card-texto{
+    padding: 152.3px 36.67px 99.37px 36px;
+    text-align: center;
+    font-size: 16px;
+    padding: 40px;
+}
+
+.card-titulo{
+    align-self: center;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 40px;
+    text-align: center;
+}
+
+.card-perfil{
+    position: absolute;
+    right: 100px;
+}
+
+.card-coracao{
+    position: absolute;
+    right: 100px;
+}
