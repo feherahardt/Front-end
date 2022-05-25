@@ -9,6 +9,10 @@ body{
     font-family: Roboto;
 }
 
+p{
+    font-size: 16px;
+}
+
 .desconto{
     width: 100%;
     height: 38px;
@@ -21,6 +25,7 @@ body{
     padding: 10px;
     position: fixed;
     font-size: 15px;
+    z-index: 2;
 }
 
 .titulo{
@@ -34,6 +39,7 @@ body{
     position: fixed;
     font-size: 40px;
     padding: 28px;
+    z-index: 2;
 }
 
 .footer{
@@ -48,27 +54,12 @@ body{
     padding: 16px;
 }
 
-div{
+card-pai{
     width: 374px;
     height: 597.01px;
-    left: 572px;
-    top: 223.99px;
-}
-
-.card-pai{
-    position: relative;
     display: flex;
-    z-index: -1;
     flex-direction: row;
-    width: 374px;
-    height: 597.01px;
-
-}
-
-.card-imagem{
-    width:374px ;
-    height:218.94px;
-
+    justify-content: center;
 }
 
 .card-conteudo{
@@ -76,6 +67,8 @@ div{
     height: 379.2px;
     background-color: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-size: 16px;
     
 }
 
@@ -83,23 +76,37 @@ div{
     padding: 152.3px 36.67px 99.37px 36px;
     text-align: center;
     font-size: 16px;
-    padding: 40px;
+    align-content: center;
 }
 
 .card-titulo{
     align-self: center;
     font-weight: 400;
-    font-size: 30px;
-    padding: 40px;
+    font-size: 40px;
+    padding: 80px;
     text-align: center;
 }
 
-.card-perfil{
-    position: absolute;
-    right: 100px;
+.card-batman{
+    background-image: url(/img/background-batman.png);
+    width: 374px;
+    height: 218.94px
+}
+.card-arlequina{
+    background-image:url(/img/background-arlequina.png);
+    width: 374px;
+    height: 218.94px;
 }
 
-.card-coracao{
+.card-perfil-batman{
     position: absolute;
-    right: 100px;
+    left: 100px;
+    top: 130px;
+    border-radius: 100%;
+}
+
+.card-perfil-arlequina{
+    position: absolute;
+    left: 100px;
+    top: 750px;
 }
