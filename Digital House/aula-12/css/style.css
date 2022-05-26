@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0;
+}
+
+.card{
+    width: 374px;
+    height: 597px;
+    border: 3px solid red;
+    position: relative;
+}
+
+.card-fundo{
+    width: 100%;
+    height: 280px;
+    position: relative;
+}
+
+.fundo-batman{
+    background-image: url(/img/background-batman.png);
+    background-repeat: no-repeat;
+}
+
+.card-coracao{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.card-perfil{
+    position: absolute;
+    top: 120px;
+    left: 110px;
+}
+
+.card-perfil img{
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+}
