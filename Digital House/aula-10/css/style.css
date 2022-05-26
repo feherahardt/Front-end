@@ -54,12 +54,14 @@ p{
     padding: 16px;
 }
 
-card-pai{
+.card-pai{
     width: 374px;
     height: 597.01px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+
 }
 
 .card-conteudo{
