@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin: 0; 
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+
+.cardFoto{
+    background-image: url(/img/delivery.png);
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+
+}
+
+.cardCardapio{
+    width: 491px;
+    height: 350px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
