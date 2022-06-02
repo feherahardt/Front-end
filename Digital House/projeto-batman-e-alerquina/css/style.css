@@ -38,6 +38,7 @@
 }
 
 .container{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     padding: 84.99px 78px 151px 112px;
@@ -158,4 +159,18 @@ footer{
 
     
 
+}
+
+@media(max-width:375px){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 5px 10px 5px;
+    }
+
+    .card{
+        width: 100%;
+        background-color: red;
+    }
 }
